@@ -61,6 +61,7 @@ class ViewController: UIViewController {
             print(product)
         }.disposed(by: bag)
         // fetch items
+        viewModel.fetchItems()
     }
 
 }
